@@ -1,0 +1,43 @@
+#heading {
+  color: red;
+}
+.well {
+  border-radius: 10px;
+}
+.dropdown{
+  position: relative;
+} 
+.btn-primary {
+  float: right;
+  width: 19%;
+  margin: 0px 2%;
+}
+.btn-success {
+  float: right;
+  width: 19%;
+}
+#text-area {
+  height: 38.4em;
+  resize: none;
+}
+
+toastr.options = {
+  "closeButton": false,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": false,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+}
+
+
+
